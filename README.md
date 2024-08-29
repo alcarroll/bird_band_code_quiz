@@ -1,4 +1,4 @@
-Bird banding uses standardized 4 and 6 legger codes for species documentation. This quiz tests a user's knowledge of the banding codes.
+Bird banding uses standardized 4 and 6 letter codes for species documentation. This quiz tests a user's knowledge of the banding codes.
 
 This is primarily a practice in Python as the banding codes generally follow the rules listed below and are not difficult to identify when presented with the full species name in text.
 
