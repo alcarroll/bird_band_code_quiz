@@ -23,7 +23,7 @@ def generate_answers():
         possible_answers.append(wrong_answer)
         wrong_answer_count += 1
 
-    #Randomize answer order
+    # Randomize answer order
     random.shuffle(possible_answers)
 
     # Call prompt for answer function
@@ -55,7 +55,7 @@ def check_answer(correct_answer,possible_answers,player_answer):
     # Prompt to play again
     print("\n\nWould you like to play again?")
     play_again = input("Y/Yes N/No\n")
-    if play_again.lower() == "y1" or play_again.lower() == "yes":
+    if play_again.lower() == "y" or play_again.lower() == "yes":
         generate_answers()
     elif play_again.lower() == "n" or play_again.lower() == "no":
         exit()
